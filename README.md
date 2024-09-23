@@ -35,35 +35,102 @@ O projeto consiste no desenvolvimento de um dashboard interativo para centraliza
 
 ## :books: Solução
 
-Criar um sistema que permita ao usuário	escolher qual gráfico deverá aparecer na tela, de acordo com sua própria necessidade através de uma tela de configuração iterativa. Além de permitir um sistema de permissionamento modular e a configuração de notificações com base em índices pré-selecionados.
+Criar um sistema que permita ao usuário escolher qual gráfico deverá aparecer na tela e com quais campos os dados deverão ser filtrados, de acordo com sua própria necessidade, através de uma tela de configuração interativa;
+ 
+Criar um sistema de permissionamento modular que permite ao administrador escolher o que cada usuário pode visualizar dentro dos dashboards e do próprio sistema;
+
+Criar um envio de notificação por email para o administrador quando determinado indicador for ultrapassado, utilizando como base o mesmo dinamismo de escolha da criação do dashboard;
+
+Criar um sistema de exportação dos gráficos e dados vistos em tela.
+
 
 
 ## :clipboard: Backlog
 <details>  
 <summary> Confira o backlog do produto: </summary>
 <br>
-    
+<table>
+  <tr>
+    <th>Rank</th>
+    <th>Prioridade</th>
+    <th>Feature</th>
+    <th>User Story</th>
+    <th>Sprint</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Alta</td>
+    <td>Visualizar dashboards</td>
+    <td>Eu como usuário, quero poder visualizar um dashboard para que eu possa ter ciência sobre as métricas atuais de recrutamento e seleção da empresa</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Média</td>
+    <td>Importar dados provisionados</td>
+    <td>Eu como desenvolvedor, quero importar os dados provisionados pelo cliente para que os dados possam ser centralizados em um único banco de dados</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Alta</td>
+    <td>Gerir Dashboards</td>
+    <td>Eu como desenvolvedor, quero importar os dados provisionados pelo cliente para que os dados possam ser centralizados em um único banco de dados</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Alta</td>
+    <td>Seleção de Indicadores personalizada</td>
+    <td>Eu como administrador do sistema, quero poder criar notificações de email personalizadas com base em indicadores para que eu possa ter um direcionamento mais assertivo dos problemas da empresa</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Alta</td>
+    <td>Seleção de Indicadores: envio de email</td>
+    <td>Eu como administrador do sistema, quero poder receber notificações em meu email para que eu possa ser avisado quando determinado indicador for ultrapassado</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Média</td>
+    <td>Autenticação de usuário</td>
+    <td>Eu como usuário, quero poder realizar login na aplicação para que eu possa visualizar os dashboards do sistema</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Média</td>
+    <td>Gerir permissões</td>
+    <td>Eu como administrador do sistema, quero poder dar e remover permissões do usuário para que eu possa ter o controle granular de cada usuário</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Baixa</td>
+    <td>Gerar Relatórios - PDF</td>
+    <td>Eu como usuário, quero poder exportar um determinado dashboard para PDF para que eu tê-lo disponível offline</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Baixa</td>
+    <td>Gerar Relatórios - Excel</td>
+    <td>Eu como usuário, quero poder exportar um determinado dashboard para EXCEL para que eu tê-lo disponível offline</td>
+    <td>2</td>
+  </tr>
+</table>
 </details>
 
 ## :calendar: Entregas
 
-| Sprint | Previsão de entrega | Status |
+| Sprint | Periodo | Status |
 | :---: | :---: | :---: |
-| 1 |  |  |
-| 2 |  | 	|
-| 3 |  |  |
-| 4 |  |  |
-
-## :spiral_calendar: Planejamento
-
-<details>  
-<summary> Confira o planejamento das sprints: </summary>
-   
-### Sprint 1
-
-- [] Visualizar dashboards
-- [] Importar dados provisionados   
-</details>
+| 1 | 09/09/24 - 29/09/24 |  |
+| 2 | 30/09/24 - 20/10/24 |  |
+| 3 | 21/10/24 - 10/11/24 |  |
+| 4 | 11/11/24 - 01/12/24 |  |
 
 
 ## :busts_in_silhouette: Equipe de desenvolvimento
