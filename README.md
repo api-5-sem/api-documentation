@@ -4,35 +4,6 @@
 
 O projeto consiste no desenvolvimento de um dashboard interativo para centralizar e visualizar dados de recrutamento, oferecendo métricas como número de candidatos, tempo de contratação e custos. A ferramenta deve gerar relatórios dinâmicos e permitir personalizações, auxiliando a gestão na otimização do processo seletivo e na tomada de decisões estratégicas.
 
-<details>  
-<summary><b> Requisitos do projeto: </b></summary>
-
-## :wrench: Requisitos funcionais
-
-•	Desenvolver um dashboard interativo para visualizar métricas de recrutamento e seleção em tempo real.
-
-•	Permitir a personalização dos relatórios com filtros por departamento, tipo de vaga, e outras categorias.
-
-•	Fornecer análises detalhadas sobre o desempenho do processo de recrutamento, incluindo o tempo médio de contratação e taxas de retenção.
-
-•	Gerar relatórios automáticos e exportáveis em formatos como PDF e Excel para apresentações e análises offline.
-
-•	Facilitar o compartilhamento de relatórios e dashboards entre equipes e departamentos com controle de acesso e permissões.
-
-•	Permitir a seleção de indicadores chave de desempenho e a configuração de alertas automáticos para quando esses indicadores atingirem determinados níveis.
-
-##  :bookmark_tabs: Requisitos não funcionais
-
-•	Manual do Usuário detalhado para orientar os usuários na utilização do dashboard e na geração de relatórios.
-
-•	Guia de instalação para a configuração inicial da plataforma, incluindo requisitos de hardware e software.
-
-•	Modelagem de Banco de Dados para armazenamento eficiente e seguro dos dados de recrutamento e seleção.
-
-•	Implementação de protocolos de segurança para proteger dados sensíveis dos candidatos e da empresa, conforme as melhores práticas de segurança da informação.
-
-</details>
-
 ## :books: Solução
 
 Criar um sistema que permita ao usuário escolher qual gráfico deverá aparecer na tela e com quais campos os dados deverão ser filtrados, de acordo com sua própria necessidade, através de uma tela de configuração interativa;
@@ -42,6 +13,45 @@ Criar um sistema de permissionamento modular que permite ao administrador escolh
 Criar um envio de notificação por email para o administrador quando determinado indicador for ultrapassado, utilizando como base o mesmo dinamismo de escolha da criação do dashboard;
 
 Criar um sistema de exportação dos gráficos e dados vistos em tela.
+
+<details>  
+<summary><b> Requisitos do projeto: </b></summary>
+
+## :wrench: Requisitos funcionais
+
+     RF-1: O usuário pode escolher qual tipo de gráfico será exibido;
+
+     RF-2: O usuário pode realizar a personalização de relatórios com filtros;
+
+     RF-3: Cada usuário deve ter seu próprio dashboard configurável;
+
+     RF-4: Deve ser possível a extração de qualquer relatório gerado para PDF;
+
+     RF-5: Deve ser possível a extação de qualquer relatório gerado para Excel;
+
+     RF-6: Deve-se criar um nível de permissionamento para todas as ações do sistema;
+
+     RF-7: Deve-se permitir que o administrador gerencie permissões;
+
+     RF-8: O envio de notificações por e-mail deve ocorrer sempre que os indicadores chaves ultrapassarem limites pré-definidos;
+
+     RF-8: Os administradores podem configurar alertas automáticos com base em indicadores chave de desempenho.
+
+##  :bookmark_tabs: Requisitos não funcionais
+
+    RNF-1: O sistema deve realizar autorização através de token JWT;
+
+    RNF-2: O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge, Safari) e dispositivos móveis;
+
+    RNF-3: O sistema deve ser intuitivo e fácil de usar;
+
+    RNF-4: Deve ser responsivo, adaptando-se a diferentes dispositivos, como desktops, tablets e smartphones;
+
+    RNF-5: Controle de permissões detalhado, garantindo que usuários só possam visualizar ou modificar dashboards e relatórios de acordo com seu nível de acesso;
+
+    RNF-6: Implementar mecanismos de rollback para evitar perda de dados em caso de falhas.
+
+</details>
 
 
 
