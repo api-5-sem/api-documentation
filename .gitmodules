@@ -1,3 +1,6 @@
 [submodule "api-back"]
 	path = api-back
 	url = https://github.com/api-5-sem/api-back
+[submodule "api-front"]
+	path = api-front
+	url = https://github.com/api-5-sem/api-front
