@@ -35,8 +35,10 @@ Criar um sistema de exportação dos gráficos e dados vistos em tela.
 
      RF-8: O envio de notificações por e-mail deve ocorrer sempre que os indicadores chaves ultrapassarem limites pré-definidos;
 
-     RF-8: Os administradores podem configurar alertas automáticos com base em indicadores chave de desempenho.
-
+     RF-9: Os administradores podem configurar alertas automáticos com base em indicadores chave de desempenho.
+     
+     RF-10 Deve ser possível importar dados através de um modelo padrão
+     
 ##  :bookmark_tabs: Requisitos não funcionais
 
     RNF-1: O sistema deve realizar autorização através de token JWT;
