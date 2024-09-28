@@ -68,6 +68,7 @@ Criar um sistema de exportação dos gráficos e dados vistos em tela.
     <th>Feature</th>
     <th>User Story</th>
     <th>Sprint</th>
+    <th>Requisitos</th>
   </tr>
   <tr>
     <td>1</td>
@@ -75,6 +76,7 @@ Criar um sistema de exportação dos gráficos e dados vistos em tela.
     <td>Visualizar dashboards</td>
     <td>Eu como usuário, quero poder visualizar um dashboard para que eu possa ter ciência sobre as métricas atuais de recrutamento e seleção da empresa</td>
     <td>1</td>
+    <td>RF-1, RF-2, RF-3, RF-7, RNF-2, RNF-3, RNF-4 </td>
   </tr>
   <tr>
     <td>2</td>
@@ -82,6 +84,7 @@ Criar um sistema de exportação dos gráficos e dados vistos em tela.
     <td>Importar dados provisionados</td>
     <td>Eu como desenvolvedor, quero importar os dados provisionados pelo cliente para que os dados possam ser centralizados em um único banco de dados</td>
     <td>1</td>
+     <td>RF-10, RNF-2, RNF-6, RF-6 </td>
   </tr>
   <tr>
     <td>3</td>
@@ -89,48 +92,63 @@ Criar um sistema de exportação dos gráficos e dados vistos em tela.
     <td>Gerir Dashboards</td>
     <td>Eu como desenvolvedor, quero importar os dados provisionados pelo cliente para que os dados possam ser centralizados em um único banco de dados</td>
     <td>2</td>
+    <td>RNF-2, RNF-3, RNF-4, RNF-5, RF-1, RF-2 , RF-3, RF-6 </td>
   </tr>
   <tr>
     <td>4</td>
     <td>Alta</td>
-    <td>Seleção de Indicadores personalizada</td>
+    <td>Seleção de Indicadores personalizada - Cadastro</td>
     <td>Eu como administrador do sistema, quero poder criar notificações de email personalizadas com base em indicadores para que eu possa ter um direcionamento mais assertivo dos problemas da empresa</td>
     <td>2</td>
+    <td>RNF-2, RNF-3, RNF-4, RNF-5, RF-6, RF-9</td>
   </tr>
   <tr>
     <td>5</td>
     <td>Alta</td>
-    <td>Seleção de Indicadores: envio de email</td>
-    <td>Eu como administrador do sistema, quero poder receber notificações em meu email para que eu possa ser avisado quando determinado indicador for ultrapassado</td>
+    <td>Seleção de Indicadores personalizada - Visualização</td>
+    <td>Eu como administrador do sistema, quero poder visualizar as notificações de email personalizadas para que eu possa saber quais notificações foram criadas</td>
     <td>2</td>
+    <td>RNF-2, RNF-3, RNF-4, RNF-5, RF-6, RF-9 </td>
   </tr>
   <tr>
     <td>6</td>
-    <td>Média</td>
-    <td>Autenticação de usuário</td>
-    <td>Eu como usuário, quero poder realizar login na aplicação para que eu possa visualizar os dashboards do sistema</td>
+    <td>Alta</td>
+    <td>Seleção de Indicadores: envio de email</td>
+    <td>Eu como administrador do sistema, quero poder receber notificações em meu email para que eu possa ser avisado quando determinado indicador for ultrapassado</td>
     <td>2</td>
+    <td>RNF-5, RF-8, RF-9</td>
   </tr>
   <tr>
     <td>7</td>
     <td>Média</td>
-    <td>Gerir permissões</td>
-    <td>Eu como administrador do sistema, quero poder dar e remover permissões do usuário para que eu possa ter o controle granular de cada usuário</td>
+    <td>Autenticação de usuário</td>
+    <td>Eu como usuário, quero poder realizar login na aplicação para que eu possa visualizar os dashboards do sistema</td>
     <td>2</td>
+    <td>RNF-1, RNF-2, RNF-4, RF-6</td>
   </tr>
   <tr>
     <td>8</td>
-    <td>Baixa</td>
-    <td>Gerar Relatórios - PDF</td>
-    <td>Eu como usuário, quero poder exportar um determinado dashboard para PDF para que eu tê-lo disponível offline</td>
+    <td>Média</td>
+    <td>Gerir permissões</td>
+    <td>Eu como administrador do sistema, quero poder dar e remover permissões do usuário para que eu possa ter o controle granular de cada usuário</td>
     <td>2</td>
+    <td>RNF-3, RNF-4, RNF-5, RF-6, RF-7</td>
   </tr>
   <tr>
     <td>9</td>
     <td>Baixa</td>
+    <td>Gerar Relatórios - PDF</td>
+    <td>Eu como usuário, quero poder exportar um determinado dashboard para PDF para que eu tê-lo disponível offline</td>
+    <td>2</td>
+    <td>RRNF-3, RF-2, RF-4</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Baixa</td>
     <td>Gerar Relatórios - Excel</td>
     <td>Eu como usuário, quero poder exportar um determinado dashboard para EXCEL para que eu tê-lo disponível offline</td>
     <td>2</td>
+    <td>RNF-3, RF-2, RF-5</td>
   </tr>
 </table>
 </details>
