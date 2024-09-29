@@ -162,6 +162,17 @@ Criar um sistema de exportação dos gráficos e dados vistos em tela.
 | 3 | 21/10/24 - 10/11/24 |  |
 | 4 | 11/11/24 - 01/12/24 |  |
 
+### Sprint-1
+<details>
+
+Dashboard
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/Exibicao-de-graficos.gif)
+
+Importação de dados
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/Insercao-de-Dados.gif)
+ 
+</details>
+
 
 ## :busts_in_silhouette: Equipe de desenvolvimento
 
