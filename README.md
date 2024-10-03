@@ -1,19 +1,18 @@
 <h1 align="center"> Dashboard Interativo para Análise de Dados de Recrutamento e Seleção </h1>
 
-## :books: Sobre o projeto
+## :page_facing_up: Sobre o projeto
 
-O projeto consiste no desenvolvimento de um dashboard interativo para centralizar e visualizar dados de recrutamento, oferecendo métricas como número de candidatos, tempo de contratação e custos. A ferramenta deve gerar relatórios dinâmicos e permitir personalizações, auxiliando a gestão na otimização do processo seletivo e na tomada de decisões estratégicas.
+O projeto busca resolver os desafios das equipes de recrutamento na centralização e análise de dados essenciais do processo seletivo. Atualmente, métricas como número de candidatos, tempo de contratação e custos são fragmentadas ou de difícil acesso, prejudicando uma visão clara e estratégica. A ausência de uma plataforma unificada e personalizável compromete a eficiência operacional e limita a capacidade de ajustar as análises de acordo com as necessidades específicas, afetando diretamente a otimização do processo de recrutamento.
 
 ## :books: Solução
 
-Criar um sistema que permita ao usuário escolher qual gráfico deverá aparecer na tela e com quais campos os dados deverão ser filtrados, de acordo com sua própria necessidade, através de uma tela de configuração interativa;
- 
-Criar um sistema de permissionamento modular que permite ao administrador escolher o que cada usuário pode visualizar dentro dos dashboards e do próprio sistema;
+Desenvolver um sistema que possibilite ao usuário personalizar os gráficos exibidos, selecionando tanto o tipo de gráfico quanto os campos para filtragem de dados, por meio de uma interface de configuração interativa.
 
-Criar um envio de notificação por email para o administrador quando determinado indicador for ultrapassado, utilizando como base o mesmo dinamismo de escolha da criação do dashboard;
+Implementar um sistema modular de permissões, permitindo que o administrador defina quais conteúdos cada usuário pode acessar, tanto nos dashboards quanto em outras áreas do sistema.
 
-Criar um sistema de exportação dos gráficos e dados vistos em tela.
+Criar uma funcionalidade de envio de notificações por e-mail ao administrador quando um indicador ultrapassar um limite pré-estabelecido, mantendo a mesma flexibilidade de personalização usada na criação dos dashboards.
 
+Desenvolver um sistema de exportação que permita ao usuário baixar os gráficos e dados visualizados diretamente na tela.
 <details>  
 <summary><b> Requisitos do projeto: </b></summary>
 
@@ -157,7 +156,7 @@ Criar um sistema de exportação dos gráficos e dados vistos em tela.
 
 | Sprint | Periodo | Status |
 | :---: | :---: | :---: |
-| 1 | 09/09/24 - 29/09/24 |  |
+| 1 | 09/09/24 - 29/09/24 |:white_check_mark:  |
 | 2 | 30/09/24 - 20/10/24 |  |
 | 3 | 21/10/24 - 10/11/24 |  |
 | 4 | 11/11/24 - 01/12/24 |  |
