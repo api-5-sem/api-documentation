@@ -15,7 +15,8 @@ Para realizar o monitoramento requisitos é necessário primeiro que alguns padr
       </ul>
    </ul>
    <ul>
-      <li>Todos requisitos funcionais/não-funcionais estão centralizados no <a href="#">documento de requisitos</a></li>
+      <li>Todos requisitos funcionais/não-funcionais estão centralizados no 
+         <a href="https://github.com/api-5-sem/api-documentation/blob/main/devops/Requisitos.md">documento de requisitos</a></li>
       <ul>
          <li>Motivo: facilidade de identificação dos requisitos do projeto</li>
       </ul>
@@ -28,7 +29,7 @@ Para realizar o monitoramento requisitos é necessário primeiro que alguns padr
    </ul>
 
 ### Relação Requisito X História
-Para encontrar a relação descrita acima basta entrar no link que se encontra logo abaixo de cada tópico na pagina de <a href="#">Proposta de Solução e Requisitos</a>  
+Para encontrar a relação descrita acima basta entrar no link que se encontra logo abaixo de cada tópico na pagina de <a href="https://github.com/api-5-sem/api-documentation/blob/main/devops/Requisitos.md">Requisitos</a>  
 OBS: é possível realizar consultas mais complexas utilizando JQL caso necessário
 Ex: "Requisitos(F/NF)[Paragraph]" ~ "RF-3" OR "Requisitos(F/NF)[Paragraph]" ~ "RF-4"
 <br>
@@ -47,7 +48,7 @@ Ex 2:
 <br>
 <br>
 Para encontrar qual requisitos uma história afeta, basta entrar na pagina desta e observara seção de Requisitos Funcionais / Não Funcionais <br>
-OBS: caso você clique nesses requisitos você sera redirecionado a tela de <a href="#">Proposta de Solução e Requisitos</a>  
+OBS: caso você clique nesses requisitos você sera redirecionado a tela de <a href="https://github.com/api-5-sem/api-documentation/blob/main/devops/Requisitos.md"> Requisitos</a>  
 
 ![](https://github.com/api-5-sem/api-documentation/blob/main/assets/DEVOPS/DEVOPS_HISTORIA_JIRA.png)
  
@@ -70,5 +71,9 @@ Exemplo:
 
 ![](https://github.com/api-5-sem/api-documentation/blob/main/assets/DEVOPS/DEVOPS_HISTORIA_JIRA.png)
 
-### Observação
-Devido ao DoD e possível, também, descobrir se uma determinada historia impactou ou não determinado sistema. Para isso basta atentar-se ao campo de Sistemas Afetados, localizado logo abaixo do DoD nas historias.
+### Observações e Considerações
+1 - Devido ao DoD e possível, também, descobrir se uma determinada historia impactou ou não determinado sistema. Para isso basta atentar-se ao campo de Sistemas Afetados, localizado logo abaixo do DoD nas historias.
+<br>
+2 - Todos os links das histórias possuem ancôras para o navegamento mais fácil na documentação de requisitos.
+<br>
+3 - O controle de histórias afetadas só é possível devido a ferramente jira como demonstrado na documentação acima.
