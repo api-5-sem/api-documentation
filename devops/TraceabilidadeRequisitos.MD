@@ -1,5 +1,0 @@
-### Pré-requisitos
-   
-### Funcionamento
-
-### Observação 
