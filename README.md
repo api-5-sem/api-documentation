@@ -122,7 +122,7 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
     <td>Média</td>
     <td>Autenticação de usuário</td>
     <td>Eu como usuário, quero poder realizar login na aplicação para que eu possa visualizar os dashboards do sistema</td>
-    <td>2</td>
+    <td>3</td>
     <td>RNF-1, RNF-2, RNF-4, RF-6</td>
   </tr>
   <tr>
@@ -130,7 +130,7 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
     <td>Média</td>
     <td>Gerir permissões</td>
     <td>Eu como administrador do sistema, quero poder dar e remover permissões do usuário para que eu possa ter o controle granular de cada usuário</td>
-    <td>2</td>
+    <td>3</td>
     <td>RNF-3, RNF-4, RNF-5, RF-6, RF-7</td>
   </tr>
   <tr>
@@ -138,7 +138,7 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
     <td>Baixa</td>
     <td>Gerar Relatórios - PDF</td>
     <td>Eu como usuário, quero poder exportar um determinado dashboard para PDF para que eu tê-lo disponível offline</td>
-    <td>2</td>
+    <td>4</td>
     <td>RRNF-3, RF-2, RF-4</td>
   </tr>
   <tr>
@@ -146,7 +146,7 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
     <td>Baixa</td>
     <td>Gerar Relatórios - Excel</td>
     <td>Eu como usuário, quero poder exportar um determinado dashboard para EXCEL para que eu tê-lo disponível offline</td>
-    <td>2</td>
+    <td>4</td>
     <td>RNF-3, RF-2, RF-5</td>
   </tr>
 </table>
