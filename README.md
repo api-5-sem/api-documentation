@@ -89,7 +89,7 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
     <td>3</td>
     <td>Alta</td>
     <td>Gerir Dashboards</td>
-    <td>Eu como desenvolvedor, quero importar os dados provisionados pelo cliente para que os dados possam ser centralizados em um único banco de dados</td>
+    <td> Eu como usuário, quero poder gerir os meus dashboards para que eu possa configurar meus dashboards de maneira customizável</td>
     <td>2</td>
     <td>RNF-2, RNF-3, RNF-4, RNF-5, RF-1, RF-2 , RF-3, RF-6 </td>
   </tr>
