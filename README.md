@@ -135,6 +135,14 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
   </tr>
   <tr>
     <td>9</td>
+    <td>Média</td>
+    <td>Deletar indicadores chaves</td>
+    <td>Eu como administrador do sistema, quero poder remover indicadores chaves para que eu possa excluir aqueles que não são mais relevantes para a minha análise.</td>
+    <td>3</td>
+    <td>RNF-3, RNF-5, RF-6, RF-7</td>
+  </tr>
+  <tr>
+    <td>10</td>
     <td>Baixa</td>
     <td>Gerar Relatórios - PDF</td>
     <td>Eu como usuário, quero poder exportar um determinado dashboard para PDF para que eu tê-lo disponível offline</td>
@@ -142,7 +150,7 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
     <td>RRNF-3, RF-2, RF-4</td>
   </tr>
   <tr>
-    <td>10</td>
+    <td>11</td>
     <td>Baixa</td>
     <td>Gerar Relatórios - Excel</td>
     <td>Eu como usuário, quero poder exportar um determinado dashboard para EXCEL para que eu tê-lo disponível offline</td>
