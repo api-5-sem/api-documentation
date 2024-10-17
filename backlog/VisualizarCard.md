@@ -30,7 +30,7 @@ A tela deve ser responsiva para dispositivos móveis e desktops.
 
 ## Wireframe
 
-![Wireframe](AD_4nXcVzI87avKWESGnM1o39pTWPXG3Bzghtv2s7abYXaRAeDTUl06xxKaXjxUkmOsEsc_WNopI22m2TPxSgeYRhg4ByMsqmQov1Sv6kYKaik2Z8m3Ja2JC2NnjsEhVlccjV4_C7eK5T4pp0o2HFEp8CtplLXcI_key=exQ0sWSC8fbfknT6Z7lF8Q.png)
+![Wireframe](https://github.com/api-5-sem/api-documentation/blob/main/assets/BACKLOG/cards.png)
 
 # BDD
 
