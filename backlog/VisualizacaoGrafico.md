@@ -33,6 +33,9 @@ Deve ser possível visualizar dashboards relacionados às:
 Cada gráfico deve ter uma descrição clara de seu propósito.  
 A tela deve ser responsiva para dispositivos móveis e desktops.
 
+# Wireframe
+![Wireframe](https://github.com/api-5-sem/api-documentation/blob/main/assets/BACKLOG/cards.png)
+
 # BDD
 
 **Dado** que eu tenha acesso ao sistema  
