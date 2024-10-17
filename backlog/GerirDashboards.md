@@ -21,7 +21,6 @@
 - O usuário deve conseguir alterar dashboards predefinidos.
 - Deve ser possível alterar os filtros de um determinado dashboard.
 - Deve ser possível alterar os dados filtrados no eixo X e Y.
-- O usuário deve conseguir adicionar ou remover dashboards.
 - Os dashboards devem ser configurados apenas localmente.
 
 # BDD
