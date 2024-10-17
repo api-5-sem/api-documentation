@@ -81,7 +81,7 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
     <td>2</td>
     <td>Média</td>
     <td>Importar dados provisionados</td>
-    <td>Eu como desenvolvedor, quero importar os dados provisionados pelo cliente para que os dados possam ser centralizados em um único banco de dados</td>
+    <td>Eu como administrador do sistema, quero importar os dados provisionados pelo cliente para que os dados possam ser centralizados em um único banco de dados</td>
     <td>1</td>
      <td>RF-10, RNF-2, RNF-6, RF-6 </td>
   </tr>
