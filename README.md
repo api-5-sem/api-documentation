@@ -180,6 +180,27 @@ Importação de dados
  
 </details>
 
+### Sprint-2
+<details>
+
+Editar Card
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/MudancaCard_1.gif)
+
+Editar Graficos
+
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/MudancaGrafico_1.gif)
+
+Vizualizar Indicador Chave
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/VisualizarIndicadorChave_1.gif)
+
+Criar Indicador Chave
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/CadastrarIndicador_1.gif)
+
+Envio de email
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/IndicadorAtingido_1.gif)
+ 
+</details>
+
 
 ## :busts_in_silhouette: Equipe de desenvolvimento
 
