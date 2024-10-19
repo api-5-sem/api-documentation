@@ -32,7 +32,7 @@
 
 ## Wireframe
 
-[Abrir Wireframe](AD_4nXc8PkncB4pDD9si6RMpED3xgsDvm4BCYSKV1DhVtmc3ELJALD97uGJhOqR78E14cqbuoDAxl0QnBUmvaIEFpyHhZBSGuiczi9JTJrqAlEa7qw4G1sMaIbd54MJHwqoPtQJ5lTmWoiBu-G113Ezc7q3s3rA?key=exQ0sWSC8fbfknT6Z7lF8Q)
+![Wireframe](https://github.com/api-5-sem/api-documentation/blob/main/assets/BACKLOG/gerir_permissao.png)
 
 # BDD
 
