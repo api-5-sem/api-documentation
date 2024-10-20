@@ -165,7 +165,7 @@ Desenvolver um sistema de exportação que permita ao usuário baixar os gráfic
 | Sprint | Periodo | Status |
 | :---: | :---: | :---: |
 | 1 | 09/09/24 - 29/09/24 |:white_check_mark:  |
-| 2 | 30/09/24 - 20/10/24 |  |
+| 2 | 30/09/24 - 20/10/24 |:white_check_mark:  |
 | 3 | 21/10/24 - 10/11/24 |  |
 | 4 | 11/11/24 - 01/12/24 |  |
 
