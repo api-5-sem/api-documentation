@@ -201,6 +201,22 @@ Envio de email
  
 </details>
 
+### Sprint-3
+<details>
+
+Deletar Indicador Chave
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/DeletarIndicadores.gif)
+
+Login
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/Login.gif)
+
+Gerir Permissões
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/VisualizarIndicardorEAlterar.gif)
+
+Permissões Em Pratica
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/Permissionamento.gif)
+
+</details>
 
 ## :busts_in_silhouette: Equipe de desenvolvimento
 
