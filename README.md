@@ -218,6 +218,18 @@ Permissões Em Pratica
 
 </details>
 
+### Sprint-4
+<details>
+
+Exportar PDF
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/PDF.gif)
+
+Exportar EXCEL
+![](https://github.com/api-5-sem/api-documentation/blob/main/assets/EXCEL.gif)
+
+</details>
+
+
 ## :busts_in_silhouette: Equipe de desenvolvimento
 
 | Função | Nome |
