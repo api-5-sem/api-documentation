@@ -8,9 +8,10 @@ Este documento descreve o processo de configuração e execução do DevOps para
 
 ## 📁 Estrutura do Projeto
 ### **1.1 Instalação**
-
+As ferramentas e dependências necessárias para este projeto estão listadas abaixo.
 <details open>
-#### Dependências Maven
+### Dependências Maven
+    
 <b>Adicione as dependências abaixo no arquivo `pom.xml` </b> 
 
 ```xml
@@ -61,7 +62,7 @@ migrations/
         V3__create_table_orders.sql
 
 ```
-<b> Configurações no application.properties </b> 
+<b> Arquivo de configuração do Flyway (application.properties) </b> 
 
 ```plaintext
 spring.application.name=pixel
@@ -83,7 +84,7 @@ spring.jpa.open-in-view=false
 ## **Etapa 2: Execução**
 
 ### **2.1  Criar Scripts de Migração**
-
+Cada alteração no banco de dados deve ser salva em um script SQL numerado e descritivo.
 <details open>
 <b> Exemplo: migrations/sprint_1/V1__create_table_users.sql</b> 
 
@@ -99,6 +100,7 @@ CREATE TABLE users (
 
 
 ### **2.2  Criar Scripts de Rollback**
+Scripts de rollback devem desfazer alterações realizadas por uma migração.
 <details open>
 <b> U2__drop_sprint2_table.sql</b> 
 
@@ -112,6 +114,7 @@ DELETE FROM flyway_schema_history WHERE version = '2';
 </details>
 
 ### **2.3  Comandos Flyway**
+Com a configuração concluída, execute os seguintes comandos:
 <details open>
 <b>Validar migrações</b> 
 
@@ -131,24 +134,24 @@ mvn spring-boot:run
 </details>
 
 ### **2.4  Teste de Carga**
-
+Para executar o teste de carga no banco de dados, utilize o arquivo SQL flyway--dados.sql.
 <details open>
 
-<b>Instale as dependências</b> 
+<b>Instale as dependências necessárias </b> 
 
 ```plaintext
 pip install pandas faker
 
 ```
-<b>Execute o script de teste</b> 
-
+<b>Execute o script de geração de dados </b> 
+Abra o arquivo testeCarga.py no Visual Studio Code ou em sua IDE preferida e execute:
 ```plaintext
 python testeCarga.py
 
 
 
 ```
-O script testeCarga.py gera automaticamente dados de carga inicial para o banco.
+O script testeCarga.py gerará dados automaticamente com base nos parâmetros configurados.
 
 </details>
 
