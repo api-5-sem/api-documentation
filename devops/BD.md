@@ -82,8 +82,6 @@ spring.jpa.open-in-view=false
 
 ## **Etapa 2: Execução**
 
-## 📁 Estrutura do Projeto
-
 ### **2.1  Criar Scripts de Migração**
 
 <details open>
