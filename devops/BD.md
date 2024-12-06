@@ -45,7 +45,7 @@ Este documento descreve o processo de configuração e execução do DevOps para
     </configuration>
 </plugin>
 ```
-<details>
+</details>
 
 ### **1.2 Configuração do Projeto**
 
@@ -77,7 +77,7 @@ spring.jpa.open-in-view=false
 
 ```
 
-<details>
+</details>
 
 
 ## **Etapa 2: Execução**
@@ -97,7 +97,7 @@ CREATE TABLE users (
 );
 
 ```
-<details>
+</details>
 
 
 ### **2.2  Criar Scripts de Rollback**
@@ -111,7 +111,7 @@ DELETE FROM flyway_schema_history WHERE version = '2';
 
 ```
 
-<details>
+</details>
 
 ### **2.3  Comandos Flyway**
 <details open>
@@ -130,7 +130,7 @@ mvn spring-boot:run
 
 ```
 
-<details>
+</details>
 
 ### **2.4  Teste de Carga**
 
@@ -152,7 +152,7 @@ python testeCarga.py
 ```
 O script testeCarga.py gera automaticamente dados de carga inicial para o banco.
 
-<details>
+</details>
 
 
 
